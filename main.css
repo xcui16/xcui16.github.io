@@ -1,18 +1,19 @@
 body {
-  font-family: monospace;
-  max-width: 100rem;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-family: sans-serif;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
   background-color: #f4f4f4;
   font-size: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 10%;
   padding-right: 10%;
-  margin-bottom: 15px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 img {
@@ -27,7 +28,7 @@ img {
 }
 
 h1 {
-  font-style: italic;
+  font-style: normal;
   font-size: 40px;
 }
 
