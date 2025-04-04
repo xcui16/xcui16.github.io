@@ -1,16 +1,17 @@
 body {
   font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   max-width: 70rem;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0;
+  text-align: center;
+  padding: 20px;
   text-align: left;
 }
 
 .newheader {
-  background-color: lightgreen;
-  color: white;
-  font-size: 18px;
+  background-color: rgb(240, 157, 108);
+  color: black;
+  font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10%;
@@ -19,7 +20,10 @@ body {
 }
 
 img {
-  width: 50%;
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .caption {
