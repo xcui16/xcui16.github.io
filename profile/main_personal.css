@@ -64,20 +64,8 @@ p {
   text-indent: 2em;
 }
 
-.indented-list {
-  max-width: 60rem; 
-  margin: 0 auto; 
-  text-align: left;
-  padding-left: 2rem; 
-}
-
-.indented-list p {
-  text-indent: 2rem;
-  margin-bottom: 0.5rem;
-}
-
 .otherimg {
-  max-width: 60rem;
+  max-width: 50rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
