@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 70rem;
+  max-width: 60rem;
   margin: 0 auto;
   text-align: center;
   padding: 20px;
@@ -64,20 +64,25 @@ p {
   text-indent: 2em;
 }
 
+.indented-list {
+  max-width: 60rem; 
+  margin: 0 auto; 
+  text-align: left;
+  padding-left: 2rem; 
+}
+
+.indented-list p {
+  text-indent: 2rem;
+  margin-bottom: 0.5rem;
+}
 .otherimg {
-  max-width: 50rem;
+  max-width: 60rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-ul {
-  list-style-position: inside;  
-  padding-left: 0;              
-}
 
 li {
-  display: flex;                
-  align-items: center;          
-  gap: 5px;
+  text-align: left;
 }
