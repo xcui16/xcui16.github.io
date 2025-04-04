@@ -84,6 +84,18 @@ p {
   margin-bottom: 30px;
 }
 
+.contact-container {
+  text-align: center; 
+  margin: 0 auto;   
+  max-width: 600px;  
+}
+
+.contact-content {
+  display: inline-block;
+  text-align: left;  
+  margin-top: 1em;
+}
+
 li {
   text-align: left;
 }
