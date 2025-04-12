@@ -1,10 +1,85 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Winky Rough;
   font-size: 18px;
   text-align: center;
   margin: 0;
   padding: 0;
 }
+
+.winky-rough {
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* practice header */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header container at top */
+.main-header {
+  width: 100%;
+  padding: 24px 0;
+  background-color: #ecac62;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: center; /* Center nav horizontally */
+}
+
+/* Nav layout */
+.nav-menu {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Links */
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: color 0.2s ease;
+}
+
+/* Enlarge SVG logo icon */
+.nav-link svg {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+/* Highlight current (active) page */
+.nav-link.current {
+  color: black;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .nav-menu {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+}
+/* practice header end */
+
+/* practice page end */
+.page-wrapper {
+  max-width: 960px; /* or 800px for even narrower */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+/* practice page end */
 
 .container {
   max-width: 60rem;
@@ -25,7 +100,7 @@ body {
 }
 
 img {
-  width: 40%;
+  width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -61,8 +136,10 @@ p {
   max-width: 60rem;
   margin: 0 auto 1.5rem auto;
   text-align: left;
-  text-indent: 2em;
-}
+  text-indent: 2em;                   
+  max-width: 90%;           
+  margin: 0 auto;           
+  }
 
 .otherimg {
   max-width: 50rem;
