@@ -133,12 +133,10 @@ h3 {
 
 p {
   font-size: 20px;
-  max-width: 60rem;
+  max-width: 960px;
   margin: 0 auto;
   text-align: left;
-  text-indent: 0em;                   
-  max-width: 600px;           
-  margin: 0 auto;           
+  text-indent: 0em;                                 
   }
 
 .otherimg {
@@ -149,9 +147,4 @@ p {
   margin-bottom: 30px;
 }
 
-.centered-list {
-  max-width: 50rem;
-  margin: 0 auto;
-  text-align: left;
-  padding-left: 2rem;
-}
+
