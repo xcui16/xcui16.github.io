@@ -74,7 +74,7 @@ body {
 
 /* practice page */
 .page-wrapper {
-  max-width: 960px; 
+  max-width: 800px; 
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -83,10 +83,11 @@ body {
 /* practice page end */
 
 .container {
-  max-width: 960px;
+  max-width: 800px;
   margin: 0 auto;
   text-align: center;
   margin-top: 30px;
+  Margin-bottom: 30px;
 }
 
 .newheader {
@@ -135,7 +136,7 @@ h3 {
 
 p {
   font-size: 20px;
-  max-width: 960px;
+  max-width: 800px;
   margin: 0 auto;
   text-align: left;
   text-indent: 0em; 
