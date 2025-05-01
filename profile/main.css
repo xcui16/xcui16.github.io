@@ -74,7 +74,7 @@ body {
 
 /* practice page */
 .page-wrapper {
-  max-width: 960px; /* or 800px for even narrower */
+  max-width: 960px; 
   margin-left: auto;
   margin-right: auto;
   
@@ -82,7 +82,7 @@ body {
 /* practice page end */
 
 .container {
-  max-width: 600px;
+  max-width: 960px;
   margin: 0 auto;
   text-align: center;
 }
