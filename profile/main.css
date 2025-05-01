@@ -74,12 +74,11 @@ body {
 
 /* practice page */
 .page-wrapper {
-  max-width: 800px; 
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 800px;
+  margin: 0 auto;
   margin-top: 20px;
-  
 }
+
 /* practice page end */
 
 .container {
