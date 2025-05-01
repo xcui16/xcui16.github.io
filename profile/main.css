@@ -80,6 +80,11 @@ body {
   text-align: center;
 }
 
+iframe-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
 /* practice page end */
 
 .container {
@@ -107,11 +112,12 @@ img {
   margin: 0 auto;
 }
 
+
 .caption {
-  font-size: 14px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 5px
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
 }
 
 h1 {
@@ -125,8 +131,8 @@ h2 {
   font-size: 36px;
   margin-bottom: 1.5rem;      
   margin-top: 1.5rem;
-  text-align: center;
   max-width: 800px;
+  text-align:center;
 }
 
 h3 {
