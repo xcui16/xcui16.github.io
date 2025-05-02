@@ -100,7 +100,7 @@ body {
   text-align: center;
 }
 img {
-  max-width: 800px; 
+  width: 800px; 
   height: 400px;
   display: block;
   margin: 0 auto;
