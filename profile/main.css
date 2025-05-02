@@ -100,8 +100,8 @@ body {
   text-align: center;
 }
 img {
-  max-width: 800px; /* adjust as needed */
-  height: auto;
+  max-width: 800px; 
+  height: 400px;
   display: block;
   margin: 0 auto;
 }
@@ -111,6 +111,9 @@ img {
   color: #555;
   margin-top: 10px;
   font-size: 12px;
+  text-align: left;
+  text-indent: 0em; 
+  max-width: 800px; 
 }
 
 
