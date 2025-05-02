@@ -101,7 +101,7 @@ body {
 }
 
 img {
-  width: 100%;
+  width: 800px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -113,11 +113,6 @@ img {
   margin-top: 10px;
 }
 
-.photo-credit {
-  font-size: 0.9em;
-  color: #777;
-  margin-bottom: 10px;
-}
 
 .separator {
   border: none;
