@@ -107,6 +107,24 @@ img {
   margin: 0 auto;
 }
 
+.photo-description {
+  font-style: italic;
+  color: #555;
+  margin-top: 10px;
+}
+
+.photo-credit {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.separator {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
 
 .caption {
   font-size: 16px;
